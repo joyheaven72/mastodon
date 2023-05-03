@@ -196,6 +196,7 @@ module.exports = {
           'app/javascript/mastodon/performance.js',
           'app/javascript/mastodon/test_setup.js',
           'app/javascript/**/__tests__/**',
+          'vite.config.ts',
         ],
       },
     ],
