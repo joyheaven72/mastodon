@@ -5,7 +5,7 @@ module RoutingHelper
 
   include Rails.application.routes.url_helpers
   include ActionView::Helpers::AssetTagHelper
-  include Webpacker::Helper
+  include ViteRails::TagHelpers
 
   included do
     def default_url_options
@@ -24,7 +24,7 @@ module RoutingHelper
   end
 
   def full_pack_url(source, **options)
-    full_asset_url(asset_pack_path(source, **options))
+    full_asset_url(vite_asset_path(source, **options))
   end
 
   def use_storage?
