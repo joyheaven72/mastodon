@@ -12,6 +12,8 @@
     "types": ["vite/client", "vitest/globals"],
     "baseUrl": "./",
     "paths": {
+      "images/*": ["app/javascript/images/*"],
+      "styles/*": ["app/javascript/styles/*"],
       "mastodon": ["app/javascript/mastodon"],
       "mastodon/*": ["app/javascript/mastodon/*"]
     }
