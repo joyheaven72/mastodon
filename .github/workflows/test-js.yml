@@ -44,5 +44,5 @@ jobs:
       - name: Install all yarn packages
         run: yarn --frozen-lockfile
 
-      - name: Jest testing
-        run: yarn jest --reporters github-actions summary
+      - name: Javascript testing
+        run: yarn test:js --reporters github-actions summary

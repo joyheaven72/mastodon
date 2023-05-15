@@ -20,7 +20,7 @@ describe('<Button />', () => {
   });
 
   it('handles click events using the given handler', () => {
-    const handler = jest.fn();
+    const handler = vi.fn();
     render(<Button onClick={handler}>button</Button>);
     fireEvent.click(screen.getByText('button'));
 
@@ -28,7 +28,7 @@ describe('<Button />', () => {
   });
 
   it('does not handle click events if props.disabled given', () => {
-    const handler = jest.fn();
+    const handler = vi.fn();
     render(<Button onClick={handler} disabled>button</Button>);
     fireEvent.click(screen.getByText('button'));
 

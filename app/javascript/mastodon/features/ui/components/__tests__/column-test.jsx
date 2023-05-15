@@ -5,7 +5,7 @@ import Column from '../column';
 describe('<Column />', () => {
   describe('<ColumnHeader /> click handler', () => {
     it('runs the scroll animation if the column contains scrollable content', () => {
-      const scrollToMock = jest.fn();
+      const scrollToMock = vi.fn();
       const { container } = render(
         <Column heading='notifications'>
           <div className='scrollable' />
