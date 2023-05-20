@@ -28,7 +28,7 @@ class REST::InstanceSerializer < ActiveModel::Serializer
       }
     else
       {
-        url: full_pack_url('media/images/preview.png'),
+        url: full_pack_url('images/preview.png'),
       }
     end
   end
