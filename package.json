@@ -46,7 +46,6 @@
     "async-mutex": "^0.4.0",
     "axios": "^1.4.0",
     "babel-plugin-formatjs": "^10.5.1",
-    "babel-plugin-lodash": "^3.3.4",
     "babel-plugin-preval": "^5.1.0",
     "babel-plugin-transform-react-remove-prop-types": "^0.4.24",
     "blurhash": "^2.0.5",
@@ -125,6 +124,7 @@
   },
   "devDependencies": {
     "@formatjs/cli": "^6.1.1",
+    "@optimize-lodash/rollup-plugin": "^4.0.3",
     "@testing-library/react": "^14.0.0",
     "@types/babel__core": "^7.20.1",
     "@types/emoji-mart": "^3.0.9",
@@ -174,10 +174,12 @@
     "lint-staged": "^13.2.2",
     "prettier": "^3.0.0",
     "react-test-renderer": "^18.2.0",
+    "rollup-plugin-visualizer": "^5.9.0",
     "stylelint": "^15.10.1",
     "stylelint-config-standard-scss": "^11.0.0",
     "typescript": "^5.0.4",
     "vite": "^4.2.0",
+    "vite-plugin-compression": "^0.5.1",
     "vite-plugin-ruby": "^3.2.0",
     "vitest": "^0.31.0",
     "yargs": "^17.7.2"
