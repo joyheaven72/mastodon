@@ -3,6 +3,7 @@
 // Open up Chrome Dev Tools, then Timeline, then User Timing to see output.
 
 import * as marky from 'marky';
+
 import { isDevelopment } from './utils/environment';
 
 if (isDevelopment()) {
