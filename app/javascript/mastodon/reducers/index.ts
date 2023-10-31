@@ -28,7 +28,7 @@ import meta from './meta';
 import { modalReducer } from './modal';
 import mutes from './mutes';
 import notifications from './notifications';
-import picture_in_picture from './picture_in_picture';
+import { pictureInPictureReducer } from './picture_in_picture';
 import polls from './polls';
 import push_notifications from './push_notifications';
 import { relationshipsReducer } from './relationships';
@@ -80,7 +80,7 @@ const reducers = {
   polls,
   trends,
   markers,
-  picture_in_picture,
+  picture_in_picture: pictureInPictureReducer,
   history,
   tags,
   followed_tags,
